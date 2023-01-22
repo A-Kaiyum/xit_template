@@ -1,24 +1,34 @@
-html{
+html {
     scroll-behavior: smooth;
-}
-body{
-
-}
-
-h1,h2,h3,h4,h5,h6{
-
-}
-
-.nav-container{
+  }
+  body {
+    background: #fff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  }
+  
+  .nav-container {
     background-image: url("images/main-banner.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
-
-}
-
-.nav-link{
+    height: 60vh !important;
+  }
+  .cover-bg {
+    background: rgba(45,48,75, 0.8);
+    height: 60vh !important;
+  }
+  .nav-link {
     color: white;
-}
+  }
+  #features{
+    padding: 5% 10%;
+  }
+  
