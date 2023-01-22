@@ -1,24 +1,30 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-
-}
-
-h1,h2,h3,h4,h5,h6{
-
+body {
+  background: #fff;
 }
 
-.nav-container{
-    background-image: url("images/main-banner.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 }
 
-.nav-link{
-    color: white;
+.nav-container {
+  background-image: url("images/main-banner.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+}
+.cover-bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 50vh !important;
+}
+.nav-link {
+  color: white;
 }
