@@ -1,83 +1,86 @@
 html {
-    scroll-behavior: smooth;
-  }
-  body {
-    background: #fff;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-  }
-  
-  .nav-container {
-    background-image: url("images/main-banner.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh !important;
-  }
-  .cover-bg {
-    background: rgba(45,48,75, 0.8);
-    height: 60vh !important;
-  }
-  .nav-link {
-    color: white;
-  }
-  
-  #features{
-    padding: 5% 10%;
-  }
-  .works-hov{
-    position: relative;
-  }
+  scroll-behavior: smooth;
+}
+body {
+  background: #fff;
+}
 
-  .work-images{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ff0000;
-  }
-   
-  .work-image:hover .overlay {
-    opacity: 0.5;
-  }
-  
-  .images-text {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .desc-text{
-    color: rgb(255, 255, 255);
-    position: relative;
-    top: 60%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+.nav-container {
+  background-image: url("images/main-banner.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh !important;
+}
+.cover-bg {
+  background: rgba(45, 48, 75, 0.8);
+  height: 60vh !important;
+}
+.nav-link {
+  color: white;
+}
+
+#features {
+  padding: 5% 10%;
+}
+
+.work-card {
+  padding: 1px;
+}
+.works-hov {
+  position: relative;
+}
+
+.work-images {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ff0000;
+}
+
+.work-image:hover .overlay {
+  opacity: 0.5;
+}
+
+.images-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.desc-text {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
