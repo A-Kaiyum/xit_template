@@ -84,3 +84,28 @@ h6 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+#testimonial{
+background:rgb(83,53,74);
+}
+
+.carousel-item {
+width: 100% !important;
+  height: 400px !important;
+
+}
+.carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  margin: 0 10px !important;
+  border-radius: 100%;
+
+}
+footer{
+  padding: 1% 5%;
+  background: rgb(49,52,84);
+}
+#footer-main{
+
+ padding: 100px;
+  background:rgb(58,62,100);
+}
